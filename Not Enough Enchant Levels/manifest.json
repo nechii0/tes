@@ -1,0 +1,71 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "e92ead78-1495-42b0-8562-3052793ef561",
+    "version": [
+      1,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      70
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "8733fb8d-d175-438a-8ed8-3b5715d3996c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "ee2ea8e0-cfb9-4700-aab8-60669f1aeec7",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/nxzovt.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.18.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.3.0"
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "by nxzott\nsupported versions 1.21.70+"
+    },
+    {
+      "type": "label",
+      "text": "§rChangelogs:\n\n§7[1.0.1]§r\n- new enchant book level up to level X\n- selection using slider"
+    },
+    {
+      "type": "label",
+      "text": "§4never reupload the file as yours"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "nxzott"
+    ],
+    "url": "https://www.tiktok.com/@nxzott",
+    "product_type": "addon"
+  }
+}
